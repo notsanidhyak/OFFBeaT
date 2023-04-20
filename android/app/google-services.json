@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "654614244736",
+    "project_id": "sam19offbeatv2",
+    "storage_bucket": "sam19offbeatv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654614244736:android:5281cff51de2ca62282565",
+        "android_client_info": {
+          "package_name": "com.example.basskhatam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654614244736-v2t8su3ijh8besk475v4pl9gpkqs98c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basskhatam",
+            "certificate_hash": "5ae33f3e9420de5f7380a0fd11cfa7270249e2b7"
+          }
+        },
+        {
+          "client_id": "654614244736-uro6qsan1t93h3el02fhofvkt9o02asj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsAvv7rQ08asyapKbMmBfxQwO0AstDtaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654614244736-uro6qsan1t93h3el02fhofvkt9o02asj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
