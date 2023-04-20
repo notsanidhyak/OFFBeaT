@@ -9,6 +9,3 @@ Competitors in the market: We have not yet discovered another application with t
 
 Business Model: We would be distributing this application at institute level mainly. Institutes will need to pay an annual subscription rate to customize the application as per their requirements. The subscription will offer the students of that institute to access all the features. Students need not pay any money. Only institute will be paying us directly through the app itself. We plan to keep the business model similar to that of “My Gate” application available in the market currently.
 
-
-Some Glimpses of our app:
-
