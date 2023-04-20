@@ -1,0 +1,218 @@
+import 'package:basskhatam/data/model/student.dart';
+import 'package:basskhatam/data/model/subject_assignment.dart';
+import 'package:basskhatam/data/model/subject_stream.dart';
+
+final List<Student> students = [
+  const Student(
+    id: 1,
+    name: "Sanidhya Kumar",
+    email: "202151138@iiitvadodara.ac.in",
+    avatar: "assets/images/user.png",
+  ),
+  const Student(
+    id: 2,
+    name: "Riya",
+    email: "202151132@iiitvadodara.ac.in",
+    avatar: "assets/images/student_1.png",
+  ),
+  const Student(
+    id: 3,
+    name: "Amit Kumar",
+    email: "202152303@iiitvadodara.ac.in",
+    avatar: "assets/images/student_2.png",
+  ),
+  const Student(
+    id: 4,
+    name: "Dhruv Kumar Sharma",
+    email: "202151049@iiitvadodara.ac.in",
+    avatar: "assets/images/student_3.png",
+  ),
+  const Student(
+    id: 5,
+    name: "Naman Lambat",
+    email: "202151096@iiitvadodara.ac.in",
+    avatar: "assets/images/student_4.png",
+  ),
+  const Student(
+    id: 6,
+    name: "Samanway Maji",
+    email: "202151136@iiitvadodara.ac.in",
+    avatar: "assets/images/student_5.png",
+  ),
+];
+
+final List<SubjectStream> streams = [
+  SubjectStream(
+    id: 1,
+    title: "Notes - Abstract Class",
+    postedAt: DateTime.now().subtract(const Duration(days: 5)),
+    type: SubjectStreamType.material,
+    subjectId: 1,
+  ),
+  SubjectStream(
+    id: 2,
+    title: "EndSem Quiz",
+    postedAt: DateTime.now().subtract(const Duration(days: 3)),
+    type: SubjectStreamType.quiz,
+    subjectId: 1,
+  ),
+  SubjectStream(
+    id: 3,
+    title: "CS201 Class Slides",
+    postedAt: DateTime.now().subtract(const Duration(days: 8)),
+    type: SubjectStreamType.material,
+    subjectId: 1,
+  ),
+  SubjectStream(
+    id: 4,
+    title: "Handwritten Notes",
+    postedAt: DateTime.now().subtract(const Duration(days: 7)),
+    type: SubjectStreamType.material,
+    subjectId: 1,
+  ),
+  SubjectStream(
+    id: 5,
+    title: "Quiz - Citations",
+    postedAt: DateTime.now().subtract(const Duration(days: 4)),
+    type: SubjectStreamType.quiz,
+    subjectId: 2,
+  ),
+  SubjectStream(
+    id: 6,
+    title: "Class Notes",
+    postedAt: DateTime.now().subtract(const Duration(days: 6)),
+    type: SubjectStreamType.material,
+    subjectId: 2,
+  ),
+  SubjectStream(
+    id: 7,
+    title: "Ethics - Case Study",
+    postedAt: DateTime.now().subtract(const Duration(days: 2)),
+    type: SubjectStreamType.material,
+    subjectId: 2,
+  ),
+  SubjectStream(
+    id: 8,
+    title: "DLD Handwritten",
+    postedAt: DateTime.now().subtract(const Duration(days: 3)),
+    type: SubjectStreamType.material,
+    subjectId: 3,
+  ),
+  SubjectStream(
+    id: 9,
+    title: "Quiz - Counters",
+    postedAt: DateTime.now().subtract(const Duration(days: 4)),
+    type: SubjectStreamType.quiz,
+    subjectId: 3,
+  ),
+  SubjectStream(
+    id: 10,
+    title: "Flip Flop Notes",
+    postedAt: DateTime.now().subtract(const Duration(days: 6)),
+    type: SubjectStreamType.material,
+    subjectId: 3,
+  ),
+  SubjectStream(
+    id: 11,
+    title: "Estimators",
+    postedAt: DateTime.now().subtract(const Duration(days: 4)),
+    type: SubjectStreamType.material,
+    subjectId: 4,
+  ),
+  SubjectStream(
+    id: 12,
+    title: "Week 3 Quiz",
+    postedAt: DateTime.now().subtract(const Duration(days: 2)),
+    type: SubjectStreamType.quiz,
+    subjectId: 4,
+  ),
+  SubjectStream(
+    id: 13,
+    title: "Week 1 Quiz",
+    postedAt: DateTime.now().subtract(const Duration(days: 5)),
+    type: SubjectStreamType.quiz,
+    subjectId: 4,
+  ),
+  SubjectStream(
+    id: 14,
+    title: "Dynamic Programming Quiz",
+    postedAt: DateTime.now().subtract(const Duration(days: 5)),
+    type: SubjectStreamType.quiz,
+    subjectId: 5,
+  ),
+  SubjectStream(
+    id: 15,
+    title: "CLRS Book",
+    postedAt: DateTime.now().subtract(const Duration(days: 4)),
+    type: SubjectStreamType.material,
+    subjectId: 5,
+  ),
+];
+
+final List<SubjectAssignment> assignments = [
+  SubjectAssignment(
+    id: 1,
+    title: "Abstract Class",
+    description:
+        "WAP to implement Abstract Class in JAVA",
+    postedAt: DateTime.now().subtract(const Duration(days: 3)),
+    dueAt: DateTime.now().add(const Duration(days: 5)),
+    subjectId: 1,
+    type: SubjectAssignmentType.turnedIn,
+  ),
+  SubjectAssignment(
+    id: 2,
+    title: "Class Diagram",
+    description: "Draw class diagrams for your end sem project",
+    postedAt: DateTime.now().subtract(const Duration(days: 4)),
+    dueAt: DateTime.now().add(const Duration(days: 9)),
+    subjectId: 1,
+    type: SubjectAssignmentType.missing,
+  ),
+  SubjectAssignment(
+    id: 3,
+    title: "Presentation",
+    description: "Submit a ppt on any technical topic of your choice",
+    postedAt: DateTime.now().subtract(const Duration(days: 1)),
+    dueAt: DateTime.now().add(const Duration(days: 4)),
+    subjectId: 2,
+    type: SubjectAssignmentType.missing,
+  ),
+  SubjectAssignment(
+    id: 4,
+    title: "EC261 Lab Notebooks",
+    description: "Scan & Submit all laboratory performed",
+    postedAt: DateTime.now().subtract(const Duration(days: 3)),
+    dueAt: DateTime.now().add(const Duration(days: 10)),
+    subjectId: 3,
+    type: SubjectAssignmentType.turnedIn,
+  ),
+  SubjectAssignment(
+    id: 5,
+    title: "1bit - 4bit ALU",
+    description: "Implement ALU on Verilog",
+    postedAt: DateTime.now().subtract(const Duration(days: 2)),
+    dueAt: DateTime.now().add(const Duration(days: 8)),
+    subjectId: 3,
+    type: SubjectAssignmentType.missing,
+  ),
+  SubjectAssignment(
+    id: 6,
+    title: "Tutorial 5",
+    description:
+        "Scan and Submit tutorial",
+    postedAt: DateTime.now().subtract(const Duration(days: 2)),
+    dueAt: DateTime.now().add(const Duration(days: 15)),
+    subjectId: 4,
+    type: SubjectAssignmentType.turnedIn,
+  ),
+  SubjectAssignment(
+    id: 7,
+    title: "Prim's Algorithm",
+    description: "Perform a detailed analysis on Prims's Algorithm",
+    postedAt: DateTime.now().subtract(const Duration(days: 1)),
+    dueAt: DateTime.now().add(const Duration(days: 4)),
+    subjectId: 5,
+    type: SubjectAssignmentType.turnedIn,
+  ),
+];
