@@ -10,6 +10,7 @@ Competitors in the market: We have not yet discovered another application with t
 Business Model: We would be distributing this application at institute level mainly. Institutes will need to pay an annual subscription rate to customize the application as per their requirements. The subscription will offer the students of that institute to access all the features. Students need not pay any money. Only institute will be paying us directly through the app itself. We plan to keep the business model similar to that of “My Gate” application available in the market currently.
 
 Images
+
 ![Screenshot 2023-05-17 202848](https://github.com/samhere19/OFFBeaT/assets/117563846/143c707b-5ad4-407c-b272-dcafffaed48b)
 ![Screenshot 2023-05-17 202907](https://github.com/samhere19/OFFBeaT/assets/117563846/3f3980f1-3a07-428e-bd4b-ee74721f3857)
 ![Screenshot 2023-05-17 202931](https://github.com/samhere19/OFFBeaT/assets/117563846/c3af79b9-1d14-45d6-be07-f91bca74d7b7)
